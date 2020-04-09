@@ -1952,7 +1952,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .p1-gradient-bg, .primary-btn, .primary-btn2:hover, .single-feature:hover, .video-area .overlay-bg, .single-footer-widget .click-btn, .generic-banner {
   background-image: -moz-linear-gradient(0deg, #b21aff 0%, #732bde 100%);
-  background-image: -webkit-linear-gradient(0deg, #b21aff 0%, #732bde 100%);
+  background-image: -webkit-linear-gradient(0deg, #b21aff 0%, #732bde 100%);/*navbar*/
   background-image: -ms-linear-gradient(0deg, #b21aff 0%, #732bde 100%);
 }
 
@@ -2052,7 +2052,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .default-header {
-  background-color: transparent;
+  background-color: transparent;/*navbarinicio*/
   width: 100% !important;
 }
 
@@ -2071,7 +2071,7 @@ h1, h2, h3, h4, h5, h6 {
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
-  background-color: #222;
+  background-color: #000; /*color del navbar*/
 }
 
 .dropdown-item {
