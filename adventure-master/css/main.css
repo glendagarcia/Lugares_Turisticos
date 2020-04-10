@@ -2071,7 +2071,7 @@ h1, h2, h3, h4, h5, h6 {
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
-  background-color: #000; /*color del navbar*/
+  background:-webkit-linear-gradient(0deg,#536976 0%,#292E49 100%); /*color del navbar*/
 }
 
 .dropdown-item {
