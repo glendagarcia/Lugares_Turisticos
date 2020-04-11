@@ -2414,7 +2414,7 @@ h1, h2, h3, h4, h5, h6 {
 .faq-area {
   background: #fff;
 }
-
+/*Inicio de la clase counter en el área de información*/
 .counter-left {
   text-align: right;
 }
@@ -2433,6 +2433,7 @@ h1, h2, h3, h4, h5, h6 {
 .counter-left .single-facts {
   margin-bottom: 26px;
 }
+/*Fin*/
 
 @media (max-width: 768px) {
   .counter-left {
