@@ -2104,7 +2104,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .dropdown-menu {
-  background: #222;
+  background: -webkit-linear-gradient(0deg,#536976 0%,#292E49 100%);/*Color del dropdown menu*/
   border-radius: 0;
   margin-top: 15px;
   border: none;
