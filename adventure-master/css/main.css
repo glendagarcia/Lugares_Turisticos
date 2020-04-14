@@ -13,7 +13,7 @@
 }
 
 ::selection {
-  background-color: #b01afe;
+  background-color: #536976;
   color: #fff;
 }
 
@@ -369,6 +369,9 @@ td, th {
 .mb-10 {
   margin-bottom: 10px;
 }
+/*.mt-35{
+  margin-top: 35px;
+}*/
 
 .mb-15 {
   margin-bottom: 15px;

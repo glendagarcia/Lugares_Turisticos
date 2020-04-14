@@ -116,6 +116,13 @@ p {
   margin-bottom: 1rem;
   text-align: justify;
 }
+p#parrafo{
+  text-align: center;
+}
+
+p#derecha{
+  text-align: right;
+}
 
 abbr[title],
 abbr[data-original-title] {
