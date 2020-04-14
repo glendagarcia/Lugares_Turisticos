@@ -527,7 +527,7 @@ td, th {
 }
 
 .pb-100 {
-  padding-bottom: 100px;
+  padding-bottom: 100px ;
 }
 
 .pb-120 {
@@ -1169,7 +1169,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .single-gallery-image {
   margin-top: 30px;
-  background-repeat: no-repeat !important;
+  background-repeat: no-repeat !important;/* se usa para tomar más importancia que otras propiedades.*/
   background-position: center center !important;
   background-size: cover !important;
   height: 200px;
@@ -1928,7 +1928,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .section-gap {
-  padding: 120px 0;
+  padding: 20px 0;
+  padding-bottom: 120px;
 }
 
 .section-title {
@@ -1952,13 +1953,13 @@ h1, h2, h3, h4, h5, h6 {
 
 .p1-gradient-bg, .primary-btn, .primary-btn2:hover, .single-feature:hover, .video-area .overlay-bg, .single-footer-widget .click-btn, .generic-banner {
   background-image: -moz-linear-gradient(0deg, #b21aff 0%, #732bde 100%);
-  background-image: -webkit-linear-gradient(0deg, #b21aff 0%, #732bde 100%);
+  background-image: -webkit-linear-gradient(0deg,#536976 0%,#292E49 100%);/*navbar*/
   background-image: -ms-linear-gradient(0deg, #b21aff 0%, #732bde 100%);
 }
 
 .p1-gradient-color, .counter-left h2, .footer-social a:hover i, .single-footer-widget .bb-btn {
   background: -moz-linear-gradient(0deg, #b21aff 0%, #732bde 100%);
-  background: -webkit-linear-gradient(0deg, #b21aff 0%, #732bde 100%);
+  background: -webkit-linear-gradient(0deg,#536976 0%,#292E49 100%);/*color de lo numeros del inicio*/
   background: -ms-linear-gradient(0deg, #b21aff 0%, #732bde 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -2052,7 +2053,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .default-header {
-  background-color: transparent;
+  background-color: transparent;/*navbarinicio*/
   width: 100% !important;
 }
 
@@ -2071,7 +2072,7 @@ h1, h2, h3, h4, h5, h6 {
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
-  background-color: #222;
+  background:-webkit-linear-gradient(0deg,#536976 0%,#292E49 100%); /*color del navbar*/
 }
 
 .dropdown-item {
@@ -2104,7 +2105,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .dropdown-menu {
-  background: #222;
+  background: -webkit-linear-gradient(0deg,#536976 0%,#292E49 100%);/*Color del dropdown menu*/
   border-radius: 0;
   margin-top: 15px;
   border: none;
@@ -2350,7 +2351,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .active-works-carousel .owl-dots .owl-dot.active {
-  background: #b01afe;
+  background: -webkit-linear-gradient(0deg,#536976 0%,#292E49 100%);/*carrusel inicio*/
   box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.2);
 }
 
@@ -2414,7 +2415,7 @@ h1, h2, h3, h4, h5, h6 {
 .faq-area {
   background: #fff;
 }
-
+/*Inicio de la clase counter en el área de información*/
 .counter-left {
   text-align: right;
 }
@@ -2433,6 +2434,7 @@ h1, h2, h3, h4, h5, h6 {
 .counter-left .single-facts {
   margin-bottom: 26px;
 }
+/*Fin*/
 
 @media (max-width: 768px) {
   .counter-left {
@@ -2479,7 +2481,7 @@ h1, h2, h3, h4, h5, h6 {
 .video-area {
   padding: 200px 0 60px 0;
   position: relative;
-  background: url(../img/video-bg.jpg) no-repeat center center/cover;
+  background: url(../img/elsalvadorvideo.jpg) no-repeat center center/cover;/*imagen de fondo para la seccion de video.*/
 }
 
 .video-area .overlay-bg {
@@ -2737,6 +2739,7 @@ h6 {
 
 .about-generic-area {
   background: #fff;
+  margin-top: 70px;
 }
 
 .about-generic-area p {
