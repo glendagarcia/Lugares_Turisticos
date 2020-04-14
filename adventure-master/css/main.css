@@ -1928,7 +1928,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .section-gap {
-  padding: 20px 0;
+  padding: 5px 0;
   padding-bottom: 120px;
 }
 
@@ -2364,6 +2364,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.3s ease 0s;
 }
 
+
 .single-feature a {
   color: #222;
 }
@@ -2383,6 +2384,31 @@ h1, h2, h3, h4, h5, h6 {
   margin-right: 12px;
   font-size: 20px;
 }
+/*Prueba de hover sobre imagenes
+.img-destinos img{
+  width: 200px;
+  height: 100px;
+}
+
+.img-destinos a{
+  color:#222;
+}
+
+.img-destinos#info{
+  width: 100px;
+  height: 70px;
+  background:-webkit-linear-gradient(0deg,#536976 0%,#292E49 100%);
+  -webkit-transition: opacity 0.2s;
+  opacity: 0;
+}
+
+.img-destinos:hover #info{
+  opacity: 1;
+}*/
+
+
+
+
 
 .gallery-area .owl-controls {
   position: absolute;
